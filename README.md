@@ -1,10 +1,24 @@
+<p align="center">
+  <img src="publish/images/Illustrate_dark_banner.png" alt="claude-illustrate-skill" width="100%">
+</p>
+
 # claude-illustrate-skill
 
-> Brand and visual assets for Claude Code, with a render-and-inspect loop so nothing ships unseen.
+> Design a logo without an image generator. Then look at it before you ship it.
 
-A [Claude Code](https://claude.com/claude-code) skill for producing logos, wordmarks, favicons, icon sets, illustration, and marketing graphics.
+![License](https://img.shields.io/badge/license-MIT-blue) ![Works with Claude Code](https://img.shields.io/badge/works%20with-Claude%20Code-8A2BE2) ![Skill](https://img.shields.io/badge/type-skill-orange)
 
-Most AI asset work fails for one reason: nobody looks at the result at the size it will actually be used. A logo that reads beautifully at 512px and turns to mud at 16px is not a logo, it is a picture of one. This skill renders every asset at its real sizes, opens the rendered pixels, critiques them against the brief, and revises. Claude can see images; this makes it use that.
+---
+
+## The Problem
+
+You ask an AI for a logo. It hands back a 1024px PNG that looks great in the chat window. You drop it into a favicon slot and it turns to mud. You ask for an icon set and get twelve icons that look like twelve different studios made them. You need an SVG and you have a raster file that merely contains a picture of one.
+
+The failure is not the model. It is that nobody looked at the result at the size it will actually be used, and nobody asked whether a diffusion model was the right instrument in the first place.
+
+A logo that reads beautifully at 512px and turns to mud at 16px is not a logo, it is a picture of one. This skill renders every asset at its real sizes, opens the rendered pixels, critiques them against the brief, and revises. Claude can see images. This makes it use that.
+
+---
 
 ## The part people are surprised by
 

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 480" width="1920" height="480">
+  <rect width="1920" height="480" fill="#141413"/>
+  <text x="960" y="228" text-anchor="middle" font-family="DejaVu Sans Mono, JetBrains Mono, Fira Code, Consolas, monospace"
+        font-size="127" font-weight="bold" fill="#f7f4ef" xml:space="preserve">claude-<tspan fill="#c47b8f">illustrate</tspan>-skill</text>
+  <text x="960" y="318" text-anchor="middle" font-family="DejaVu Sans Mono, JetBrains Mono, Fira Code, Consolas, monospace"
+        font-size="44" fill="#f7f4ef" letter-spacing="1">Logos, icons, and brand assets</text>
+  <line x1="500" y1="382" x2="1420" y2="382" stroke="#c47b8f" stroke-width="3" stroke-opacity="1"/>
+</svg>
